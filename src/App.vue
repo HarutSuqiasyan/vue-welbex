@@ -4,9 +4,9 @@
 
     <div class="fixed left-[48%] top-0 bg-gradient-to-r from-[#FFFFFF] via-[#FFD8A0] via-[#FD8787] to-[#DBA6FF] w-[1px] h-full z-20 opacity-10"></div>
 
-    <div class="fixed~~ left-[60%] bg-gradient-to-r from-[#FFFFFF] via-[#FFD8A0] via-[#FD8787] to-[#DBA6FF] w-[1px] h-full rotate-180 z-20 opacity-10 ">
+    <div class="fixed left-[60%] bg-gradient-to-r from-[#FFFFFF] via-[#FFD8A0] via-[#FD8787] to-[#DBA6FF] w-[1px] h-full rotate-180 z-20 opacity-10 ">
     </div>
-    <div class="fixed~~ left-[85%] bg-gradient-to-r from-[#FFFFFF] via-[#FFD8A0] via-[#FD8787] to-[#DBA6FF] w-[1px] h-full rotate-180 z-20 opacity-10 ">
+    <div class="fixed left-[85%] bg-gradient-to-r from-[#FFFFFF] via-[#FFD8A0] via-[#FD8787] to-[#DBA6FF] w-[1px] h-full rotate-180 z-20 opacity-10 ">
     </div>
     <div class="w-180 h-140 absolute top-0 left-0 backdrop-blur-[10px] z-11 max-xl:w-130 max-lg:w-130 max-lg-h-screen max-md:w-screen max-md:h-135 max-[548px]:w-screen max-[548px]:min-h-190 max-[1280px]:h-125 "></div>
     <div class="absolute top-[320px] left-[700px] w-70 h-70 bg-orange-color rounded-full blur-2xl opacity-10 shadow-2xl max-xl:left-[400px] max-lg:top-[200px] max-lg:left-[300px] max-xl:w-50 max-xl:h-50 max-sm:left-0 max-sm:top-120" ></div>
@@ -28,6 +28,8 @@
       <Section1 />
       <Section2 />
       <Section3 />
+      <Section4 />
+      <Section5 />
     </div>
   </div>
 </template>
@@ -37,7 +39,10 @@ import Header from './components/Header.vue'
 import Section1 from './components/Section1.vue';
 import Section2 from './components/Section2.vue';
 import Section3 from './components/Section3.vue';
+import Section4 from './components/Section4.vue';
+import Section5 from './components/Section.5.vue';
 </script>
-<style scoped>
+
+<style>
 
 </style>
