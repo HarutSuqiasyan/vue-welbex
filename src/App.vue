@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#0E1014]">  <!-- Container -->
+  <div class="bg-[#0E1014]">
     <div class="fixed left-[200px] top-0 bg-gradient-to-r from-[#FFFFFF] via-[#FFD8A0] via-[#FD8787] to-[#DBA6FF] w-[1px] h-full z-20 opacity-10"></div>
 
     <div class="fixed left-[48%] top-0 bg-gradient-to-r from-[#FFFFFF] via-[#FFD8A0] via-[#FD8787] to-[#DBA6FF] w-[1px] h-full z-20 opacity-10"></div>
@@ -31,6 +31,7 @@
       <Section4 />
       <Section5 />
       <Section6 />
+      <Section7 />
     </div>
   </div>
 </template>
@@ -43,6 +44,7 @@ import Section3 from './components/Section3.vue';
 import Section4 from './components/Section4.vue';
 import Section5 from './components/Section5.vue';
 import Section6 from './components/Section6.vue';
+import Section7 from './components/Section7.vue';
 
 </script>
 

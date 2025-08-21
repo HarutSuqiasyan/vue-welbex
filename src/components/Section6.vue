@@ -1,5 +1,8 @@
 <template>
-  <div class="pl-50 pt-36 max-[1300px]:pl-15 max-[1024px]:pl-10 max-[768px]:pl-6 max-[480px]:pl-4">
+  <div class="relative pl-50 pt-36 max-[1300px]:pl-15 max-[1024px]:pl-10 max-[768px]:pl-6 max-[480px]:pl-4">
+    <div class="absolute right-1/5 w-20 h-20"><img src="/red_ball.svg" alt=""></div>
+    <div class="absolute w-10 h-10 top-[95%] right-1/25"><img src="/purple_ball.svg" alt=""></div>
+
     <div class="pb-18">
       <h3 class="text-light-text text-5xl font-normal">Бесплатный аудит</h3>
     </div>

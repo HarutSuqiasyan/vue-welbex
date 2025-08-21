@@ -11,3 +11,12 @@
 .line{
   @apply h-[1px] w-5 bg-gradient-to-r from-orange-color via-[24%] to-red-color mt-3
 }
+.question {
+  @apply text-light-text text-[18px] font-normal;
+}
+.button_active{
+  @apply text-white bg-blue-color font-light text-sm flex justify-center items-center cursor-pointer p-2;
+}
+.button_inactive{
+  @apply text-light-text bg-transparent font-light text-sm flex justify-center items-center border-1 border-[#25262C] cursor-pointer py-1 px-2;
+}
