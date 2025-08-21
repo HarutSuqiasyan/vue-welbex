@@ -1,6 +1,30 @@
 <template>
+    <div class="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 hidden"></div>
+    <div :class="modalVisible?'fixed left-1/2 top-1/2 w-1/2 h-65 -translate-x-1/2 -translate-y-1/2 z-50 bg-black':'hidden'">
+        <div :class="modalVisible?'relative flex flex-col justify-center text-center h-full gap-2':'hidden'">
+            <div class="absolute right-2 top-2 cursor-pointer" @click="closeModal">
+                <img src="/close.svg" alt="">
+            </div>
+            <p class="font-normal text-2xl bg-gradient-to-r from-orange-color via-[24%] to-red-color bg-clip-text text-transparent">Спасибо за вашу заявку!</p>
+            <p class="text-light-text text-[16px]">Наш менеджер свяжется с вами в ближайшее время и уточнит все детали.</p>
+        </div>
+    </div>
+
+
   <div class="relative pt-25 pl-50 max-[1300px]:pl-15 max-md:pl-5 max-sm:pt-10">
-    <div class="relative flex max-lg:flex-col z-40">
+    <div>
+        <img class="absolute top-[41%] left-[30%]" src="/purple_ball.svg" alt="">
+    </div>
+    <div>
+        <img class="absolute top-[75%] left-50" src="/yellow_ball.svg" alt="">
+    </div>
+    <div>
+        <img class="absolute top-[80%] left-1/3 w-7 h-7" src="/red_ball.svg" alt="">
+    </div>
+    <div>
+        <img class="absolute top-[95%] right-1/10" src="/red_ball.svg" alt="">
+    </div>
+    <div class="flex max-lg:flex-col z-40">
       <div class="relative h-[700px] max-lg:h-auto">
         <div>
           <h3 class="text-5xl text-light-text max-md:text-3xl max-sm:text-2xl">
@@ -200,6 +224,13 @@ function toggleButton4(index) {
         }
     });
 }
+const modalVisible = ref(false);
+function openModal() {
+    modalVisible.value = true;
+}
+function closeModal() {
+    modalVisible.value = false;
+}
 const phone = ref("");
 
 const isError = ref(false)
@@ -207,6 +238,8 @@ function checkTel(){
     if(phone.value.length !== 16){
         isError.value = true
     }else{
+        openModal()
+        phone.value = ""
         isError.value = false
     }
 }
