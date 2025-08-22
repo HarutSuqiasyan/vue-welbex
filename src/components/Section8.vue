@@ -25,7 +25,7 @@
         </div>
         <div class="relative z-20">
             <div class="grid grid-cols-3 gap-10 pt-20 max-[1140px]:grid-cols-2 max-md:grid-cols-1 max-md:place-items-center">
-                <div v-for="(item, i) in data" :key="i" class=" w-90 h-66 bg-gradient-to-br from-white/10 to-black rounded-lg p-5 max-[400px]:w-76 max-[400px]:h-65 max-md:h-30 relative" :class="{'max-md:h-60': item.isOpen}">
+                <div v-for="(item, i) in data" :key="i" class="cursor-pointer w-90 h-66 bg-gradient-to-br from-white/10 to-black rounded-lg p-5 max-[400px]:w-76 max-[400px]:h-65 max-md:h-30 relative" :class="{'max-md:h-60': item.isOpen}">
                     <div @click="openDes(i)" class="flex flex-col justify-center gap-5 relative max-[400px]:gap-3">
                         <div @click="openDes(i)" class="absolute top-3 right-0 transition-transform duration-300 md:hidden" :class="{'rotate-180': item.isOpen}">
                             <img src="/arrow_back_ios.svg" alt="">
