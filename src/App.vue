@@ -36,6 +36,10 @@
       <Section9 />
       <Section10 />
       <Section11 />
+      <Section12 />
+      <Section13 />
+      <Section14 />
+      <Section15 />
     </div>
   </div>
 </template>
@@ -52,7 +56,13 @@ import Section7 from './components/Section7.vue';
 import Section8 from './components/Section8.vue';
 import Section9 from './components/Section9.vue';
 import Section10 from './components/Section10.vue';
-import Section11 from './components/Section11.vue'
+import Section11 from './components/Section11.vue';
+import Section12 from './components/Section12.vue';
+import Section13 from './components/Section13.vue';
+import Section14 from './components/Section14.vue';
+import Section15 from './components/Section15.vue';
+
+
 </script>
 
 <style>
