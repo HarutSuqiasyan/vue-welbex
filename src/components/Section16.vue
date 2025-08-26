@@ -5,7 +5,7 @@
         <div class="absolute top-[20%] right-[10%] w-10 h-10">
             <img src="/purple_ball.svg" alt="">
         </div>
-        <div class="absolute top-[20%] right-[10%] bg-[url(/dots.svg)] w-100 h-180 z-10"></div>
+        <div class="absolute top-[20%] right-[10%] bg-[url(/dots.svg)] w-100 h-120 z-10"></div>
         <div class="pb-15">
             <h3 class="text-5xl text-light-text max-md:text-3xl max-sm:text-2xl">Сертификаты</h3>
         </div>
