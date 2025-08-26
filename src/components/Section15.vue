@@ -5,8 +5,8 @@
         <div class="pb-15">
             <h3 class="text-5xl text-light-text max-md:text-3xl max-sm:text-2xl">Благодарственные письма</h3>
         </div>
-        <div>
-            <div class="flex flex-col gap-5">
+        <div class="flex gap-10 max-md:flex-col">
+            <div class=" order-1 flex flex-col gap-5 max-md:order-2">
                 <div class="flex-flex-col">
                     <p class="text-light-text font-medium text-2xl max-[640px]:text-xl max-[480px]:text-lg">Компания  <span class="text-2xl bg-gradient-to-r from-orange-color via-[24%] to-red-color bg-clip-text text-transparent">Фильтрон</span></p>
                     <p class="text-[#656566]">Пантюшин Д.В.</p>
@@ -18,8 +18,15 @@
                     <p class="text-[16px] text-blue-color">Читать письмо целиком ></p>
                 </div>
             </div>
-            <div></div>
+            <div class="order-2 grid grid-cols-3 gap-5 max-[530px]:grid-cols-2 max-[880px]:grid-cols-2 max-md:order-1 max-md:grid-cols-4 max-sm:grid-cols-3  ">
+                <div v-for="item in data" class="w-50 h-25 max-[1000px]:w-40 max-[1000px]:h-15 max-[530px]:w-30 max-[530px]:h-10 max-[425px]:w-25 max-[370px]:w-20 bg-black flex justify-center items-center">
+                    <img :src="item" alt="">
+                </div>
+            </div>     
         </div>
-
     </div>
 </template>
+<script setup>
+import {ref} from 'vue'
+let data = ref(['/Section15/filtroncolor.svg','/Section15/filtrongray.svg','/Section15/sendpulse.svg','/Section15/smscenter.svg','/Section15/smscenter.svg','/Section15/ipivanov.svg','/Section15/filtrongray.svg','/Section15/filtrongray.svg','/Section15/filtrongray.svg'])
+</script>

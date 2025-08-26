@@ -40,6 +40,7 @@
       <Section13 />
       <Section14 />
       <Section15 />
+      <Section16 />
     </div>
   </div>
 </template>
@@ -61,7 +62,7 @@ import Section12 from './components/Section12.vue';
 import Section13 from './components/Section13.vue';
 import Section14 from './components/Section14.vue';
 import Section15 from './components/Section15.vue';
-
+import Section16 from './components/Section16.vue';
 
 </script>
 
