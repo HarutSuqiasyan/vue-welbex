@@ -42,12 +42,15 @@
       <Section15 />
       <Section16 />
       <Section17 />
+      <Section18 />
+      <Section19 />
+      <Footer />
     </div>
   </div>
 </template>
 
 <script setup>
-import Header from './components/Header.vue'
+import Header from './components/Header.vue';
 import Section1 from './components/Section1.vue';
 import Section2 from './components/Section2.vue';
 import Section3 from './components/Section3.vue';
@@ -64,7 +67,10 @@ import Section13 from './components/Section13.vue';
 import Section14 from './components/Section14.vue';
 import Section15 from './components/Section15.vue';
 import Section16 from './components/Section16.vue';
-import Section17 from './components/Section17.vue'
+import Section17 from './components/Section17.vue';
+import Section18 from './components/Section18.vue';
+import Section19 from './components/Section19.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <style>

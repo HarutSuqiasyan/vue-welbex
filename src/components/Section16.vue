@@ -15,16 +15,16 @@
         </div>
         <div class="flex gap-5 pt-10 flex-wrap relative z-20">
             <div class="w-50 h-25 flex items-center justify-center bg-gradient-to-br from-white/10 to-black ">
-                <img src="/public/Section16/amo-crm_logo.svg" alt="">
+                <img src="/Section16/amo-crm_logo.svg" alt="">
             </div>
             <div class="w-50 h-25 flex items-center justify-center bg-gradient-to-br from-white/10 to-black ">
-                <img src="/public/Section16/header-logo 1.svg" alt="">
+                <img src="/Section16/header-logo 1.svg" alt="">
             </div>
             <div class="w-50 h-25 flex items-center justify-center bg-gradient-to-br from-white/10 to-black ">
-                <img src="/public/Section16/onlinepbx.svg" alt="">
+                <img src="/Section16/onlinepbx.svg" alt="">
             </div>
             <div class="w-50 h-25 flex items-center justify-center bg-gradient-to-br from-white/10 to-black ">
-                <img src="/public/Section16/image 40.svg" alt="">
+                <img src="/Section16/image 40.svg" alt="">
             </div>
         </div>
     </div>

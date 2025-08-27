@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center flex-wrap pt-15 max-md:gap-3 max-md:pt-5 max-[500px]:justify-evenly">
+    <header class="flex justify-center flex-wrap pt-15 max-md:gap-3 max-md:pt-5 max-[500px]:justify-evenly">
         <div class="order-1 cursor-pointer w-[140px] h-13 flex flex-col justify-between z-20 max-[500px]:order-1">
             <img class="w-[140px] h-6" src="/public/logo_welbex.svg" alt="logo">
             <p class="block text-light-text text-xs font-light w-[165px] h-6 max-lg:none">крупный интегратор AmoCRM в Росcии и ещё 8 странах</p>
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 </template>
 <script setup>
 

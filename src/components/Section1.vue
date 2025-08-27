@@ -5,7 +5,7 @@
             <p class="text-5xl font-bold bg-gradient-to-r from-[#FCB045] via-[#FCB045] via-[24%] to-[#FF3F78] bg-clip-text text-transparent ">с AmoCRM.</p>
             <p class="text-light-text text-14.5 font-medium font-montserrat">Развиваем и контролируем<br/> продажи за вас</p>
         </div>
-        <div class=" order-2 flex w-[540px] h-[551px] justify-center items-center z-10 max-xl:w-[400px] max-xl:h-[410px] max-lg:w-[300px] max-lg:h-[300px] max-md:order-3 animate-spin [animation-duration:5s]">
+        <div class=" order-2 flex w-[540px] h-[551px] justify-center items-center z-10 max-xl:w-[400px] max-xl:h-[410px] max-lg:w-[300px] max-lg:h-[300px] max-md:order-3"> <!--animate-spin [animation-duration:5s]-->
             <img class="bg-[url(/dots.svg)]" src="/Polyhedron.svg" alt="">
         </div>
         <div class="order-3 flex flex-col items-center z-20 justify-center gap-10 max-md:order-2 max-lg:gap-5 max-md:justify-end max-[1340px]:mr-15 max-md:mr-0">
